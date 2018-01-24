@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  height:100vh;
+}
+
+.top {
+  height:40%;
+}
+
+.bottom {
+  height:60%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.stats {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+
+  [class*='col-'] {
+    background: transparent;
+
+  }
+}
+
+.type {
+  font-size: 1.2rem;
+}
